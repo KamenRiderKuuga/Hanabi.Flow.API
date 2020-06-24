@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanabi.Flow.API", "Hanabi.Flow.API\Hanabi.Flow.API.csproj", "{6421BC55-2AE5-43B2-9B19-323FA58027C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanabi.Flow.Common", "Hanabi.Flow.Common\Hanabi.Flow.Common.csproj", "{FE518D85-8592-47EA-9A64-90189D8F5FB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanabi.Flow.Repository", "Hanabi.Flow.Repository\Hanabi.Flow.Repository.csproj", "{51E66598-0AC3-48B9-927B-7C2D0AEEF4D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanabi.Flow.Model", "Hanabi.Flow.Model\Hanabi.Flow.Model.csproj", "{7437D9E8-9AE6-4AF9-80B7-FAE7914A8551}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanabi.Flow.IRepository", "Hanabi.Flow.IRepository\Hanabi.Flow.IRepository.csproj", "{682C09AB-7F3D-4696-9E6C-73AC88AD7649}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanabi.Flow.IService", "Hanabi.Flow.IService\Hanabi.Flow.IService.csproj", "{1BC881B5-A5DB-4B00-A2B1-CC48C35BE7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanabi.Flow.Service", "Hanabi.Flow.Service\Hanabi.Flow.Service.csproj", "{0E215100-B6FE-4890-9771-D8C2AAD60773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6421BC55-2AE5-43B2-9B19-323FA58027C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6421BC55-2AE5-43B2-9B19-323FA58027C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6421BC55-2AE5-43B2-9B19-323FA58027C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6421BC55-2AE5-43B2-9B19-323FA58027C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE518D85-8592-47EA-9A64-90189D8F5FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE518D85-8592-47EA-9A64-90189D8F5FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE518D85-8592-47EA-9A64-90189D8F5FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE518D85-8592-47EA-9A64-90189D8F5FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E66598-0AC3-48B9-927B-7C2D0AEEF4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E66598-0AC3-48B9-927B-7C2D0AEEF4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E66598-0AC3-48B9-927B-7C2D0AEEF4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E66598-0AC3-48B9-927B-7C2D0AEEF4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7437D9E8-9AE6-4AF9-80B7-FAE7914A8551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7437D9E8-9AE6-4AF9-80B7-FAE7914A8551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7437D9E8-9AE6-4AF9-80B7-FAE7914A8551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7437D9E8-9AE6-4AF9-80B7-FAE7914A8551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682C09AB-7F3D-4696-9E6C-73AC88AD7649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682C09AB-7F3D-4696-9E6C-73AC88AD7649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682C09AB-7F3D-4696-9E6C-73AC88AD7649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682C09AB-7F3D-4696-9E6C-73AC88AD7649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC881B5-A5DB-4B00-A2B1-CC48C35BE7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC881B5-A5DB-4B00-A2B1-CC48C35BE7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC881B5-A5DB-4B00-A2B1-CC48C35BE7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC881B5-A5DB-4B00-A2B1-CC48C35BE7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E215100-B6FE-4890-9771-D8C2AAD60773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E215100-B6FE-4890-9771-D8C2AAD60773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E215100-B6FE-4890-9771-D8C2AAD60773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E215100-B6FE-4890-9771-D8C2AAD60773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB649677-AF65-4DAA-93F1-5D8A55B76623}
+	EndGlobalSection
+EndGlobal
